@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+    background-color: hsl(225, 100%, 98%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vg;
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin: auto;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.hero-img img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.content {
+    text-align: center;
+    padding: 40px 50px;
+}
+
+.content p{
+    line-height: 1.6;
+    padding-bottom: 7px;
+    color: hsl(224, 23%, 55%);
+}
+
+.payment-plan {
+    margin: 20px 0;
+    padding: 20px 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.plan {
+    width: 60%;
+    padding-left: 15px;
+}
+
+.plan p, h4{
+    text-align: left;
+    line-height: 1.1;
+    font-size: 17px;
+
+}
+
+.plan h4{
+    font-weight: 700;
+}
+
+.plan p{
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+
+.submit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.submit button{
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 10px;
+    padding: 1em 2em;
+    color: white;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 6px 8px hsla(245, 75%, 52%, 0.356);
+}
+
+.submit p{
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+
+a{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 700px){
+    body {
+        background-color: hsl(225, 100%, 98%);
+        background-image: url("images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
